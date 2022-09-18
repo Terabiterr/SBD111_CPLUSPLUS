@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{b43fbfe8-b449-4844-9e43-714eee7b25e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DBContext">
+      <UniqueIdentifier>{278b35a4-12ca-45b4-a3c9-6081cd6a69ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Services">
+      <UniqueIdentifier>{cf6ff2c6-e1c6-49bb-9228-c9bf1b62cd9e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Users_crud_sort_search.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Profession.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Role.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="IModels.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="DBContextUsers.cpp">
+      <Filter>DBContext</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceUser.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
